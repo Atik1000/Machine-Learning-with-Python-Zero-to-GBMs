@@ -2,11 +2,12 @@
 
 I will only post the iPython notebooks and they will be posted as I finish them myself. This helps me to keep a track of my studies
 and also refer to it on the fly while I am at work. Reference: 
-https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/learn/v4/overview
 
-https://jovian.ai/
+1.https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/learn/v4/overview
 
-https://github.com/codebasics/roadmaps/blob/master/machine-learning-engineer-roadmap-2021/ml_engineer_roadmap_2021.md
+2.https://jovian.ai/
+
+3.https://github.com/codebasics/roadmaps/blob/master/machine-learning-engineer-roadmap-2021/ml_engineer_roadmap_2021.md
 
 Following are the topics posted-
 
