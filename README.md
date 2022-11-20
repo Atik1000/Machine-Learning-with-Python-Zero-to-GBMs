@@ -9,6 +9,10 @@ and also refer to it on the fly while I am at work. Reference:
 
 3.https://github.com/codebasics/roadmaps/blob/master/machine-learning-engineer-roadmap-2021/ml_engineer_roadmap_2021.md
 
+4.https://www.youtube.com/watch?v=3FG-Fpvzymo&list=PLAoF4o7zqskR7U98D799FKHkZ4YrHKPqs&index=1
+
+5.Books :https://bcebakhtiyarpur.org/wp-content/uploads/2020/03/file_5e748501c810d.pdf
+
 Following are the topics posted-
 
 1) Python Crash Course
