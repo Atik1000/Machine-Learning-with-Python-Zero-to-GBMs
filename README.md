@@ -27,3 +27,12 @@ Following are the topics posted-
 14) Support Vector Machines
 15) K-Means Clustering
 16) Principal Component Analysis
+
+
+# what is machine -learning-mean
+As a human wha we will do something understand 
+1)Collect Data
+2)Understanding data and make mathematical formulas
+3)predict future
+
+so if we will train a machine then it will work as a human that is called machine -learning.
