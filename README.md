@@ -38,12 +38,11 @@ As a human wha we will do something understand --
 
 so if we will train a machine then it will work as a human that is called machine -learning.
 
-#Types of Machine-learning
+# Types of Machine-learning
+
 there are 3 types of Machine-learning methods----
 
-#supervised machine learning:
 
-<!-- Add image -->
 <Table>
   <tr>
         <td>
