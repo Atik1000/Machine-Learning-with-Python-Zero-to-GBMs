@@ -62,7 +62,7 @@ there are 3 types of Machine-learning methods----
             <td>
                 <h2><b> Reinforcement machine learning:</b></h2>
                 <p> Some of the autonomous driving tasks where reinforcement learning could be applied include trajectory optimization, motion planning, dynamic pathing, controller optimization, and scenario-based learning policies for highways. For example, parking can be achieved by learning automatic parking policies</p>
-                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2020/01/Stack-in-Data-Structure.jpg" alt="stack img" width="500px" height="370px">
+                    <img src="https://www.guru99.com/images/1/082319_0514_Reinforceme2.png" alt="stack img" width="500px" height="370px">
             </td>
             </td>
     </tr>
