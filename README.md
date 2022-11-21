@@ -71,3 +71,119 @@ there are 3 types of Machine-learning methods----
             </td>
     </tr>
 </Table>
+
+
+# Here we will have an understanding equation of a line slope-intercept for machine learning
+
+1) Equation of a line
+
+2) Slope
+
+3)Intercept
+
+### We all know from our high school mathematics equation of a line is ax+by+c=0--------
+
+eg: 2x+5y+6=0.
+
+a=2,b=5,c=6
+
+a,b,c are constants.
+
+The equation of a line can be given in slope-intercept form.
+
+y=Mx+Z
+
+where M = slope
+
+Z=intercept
+
+Intercept: Intercept value is the value at which the line bisects the y-coordinate.
+
+Let's take an example.
+
+Take two lines
+l1: y=10x+2
+
+l2: y=20x+2
+
+for both the lines intercept value is 2. ie both the lines will bisect the y coordinate at 2.
+
+Slope: The value of the slope gives us the slant and direction of the line.
+
+To understand how the slope value gives slant and direction.
+
+First, we have to understand how to calculate the slope given 2 points.
+
+Take any two points on a line.
+
+Lets say (x1,y1) and (x2,y2).
+
+The equation to calculate the slope of the line is given as:
+
+slope = y2-y1/x2-x1
+
+slope = change in y/change in x
+
+(x1,y1)=(2,8)
+
+(x2,y2)=(6,9)
+
+slope=9-8/6-2
+
+slope = .25
+
+As slope value increases slantness of the line increases.
+
+Let's check this with an example.
+L1, L2 lines bisect at a point. Say that point as (x1,y1).
+
+Observe from the figure above the L2 line is more slant when compared to the L1 line.
+
+So the slope of the l2 line should be more.
+
+Take a point (x2,y2) on L1
+
+Take a point (x2,y5) on L2
+
+So x2-x1 value is equal for both the lines.
+
+The denominator is equal for both the lines.
+
+Observe from figure y5-y1 is large when compared to y2-y1.
+
+For the same change in x2-x1 change in y5-y1 is more when compared to change in y2-y1.
+
+The reason is the L2 line is slant than the L1 line.
+
+You can observe the difference clearly in the above figure.
+
+The sign of the slope gives the direction of the line.
+
+Let's understand this with an example.
+It has two lines L1and L2.
+
+Take two points on l1. As the x value increases y value decreasing.
+
+Observe this from the figure.
+
+The points are (2.5,2.5) and (3.5,1.9)
+
+x increases from 2.5 to 3.5
+
+y decreases from 2.5 to 1.9
+
+As x increasing y value decreasing the line is moving down.
+
+If y decreases as x increases. From the equation of slope, y2-y1 ie y2 is small when compared to y1.
+
+So 1.9-2.5 =-0.6.
+
+we get a negative slope.
+
+Look at the line l2.
+
+As x value increases y value increases. So we get a positive slope.
+
+Whenever we have a positive slope line moving up.
+
+The understanding of slope, intercept will help a lot in understanding machine learning algorithms.
