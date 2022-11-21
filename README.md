@@ -79,7 +79,7 @@ there are 3 types of Machine-learning methods----
 
 1) Equation of a line
 2) Slope
-3)Intercept
+3) Intercept
 
 ### We all know from our high school mathematics equation of a line is ax+by+c=0--------
 
