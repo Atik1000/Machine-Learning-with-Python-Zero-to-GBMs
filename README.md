@@ -13,6 +13,8 @@ and also refer to it on the fly while I am at work. Reference:
 
 5.Books :https://bcebakhtiyarpur.org/wp-content/uploads/2020/03/file_5e748501c810d.pdf
 
+1. If you know bangla then https://kazis-organization.gitbook.io/undefined-1
+
 Following are the topics posted-
 
 1) Python Crash Course
@@ -76,9 +78,7 @@ there are 3 types of Machine-learning methods----
 # Here we will have an understanding equation of a line slope-intercept for machine learning
 
 1) Equation of a line
-
 2) Slope
-
 3)Intercept
 
 ### We all know from our high school mathematics equation of a line is ax+by+c=0--------
