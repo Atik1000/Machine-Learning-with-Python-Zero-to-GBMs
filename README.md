@@ -395,3 +395,126 @@ By changing the w1, w2,.... wn-1, w0 values. We can change the position of the h
 with this understanding of the plane and hyperplane concept. we can learn about machine learning algorithms easily
 
 
+
+# Derivative of a Function
+
+Here we discuss the derivative of a function for machine learning.
+
+Let's take an example and understand what derivative means.
+
+Take a line in two-dimensional coordinate space.
+
+Task: To identify the slope of the line.
+
+We had this discussion previously on how to identify the slope of a line.
+
+Take two points on the line. Lets say as (x1,y1) and (x2,y2)
+
+The slope of the line is given as y2-y1/x2-x1.
+
+The equation of a line is a linear function.
+
+Linear function: the function that goes straight. It doesn't take any turns.
+
+The slope of a linear function is constant. ie at any point on the line slope is the same.
+
+Understand slope means slant. Will the slant of a line change? No
+
+at any point on the line, the slant is the same.
+
+Let's take a nonlinear function.
+
+Eg: y = (x)^2
+
+The function looks like in the below figure.
+
+The slant of the function at the above two points are not the same because function taking turns.
+
+Let's take two points on the function. In the above figure, it's given in red color.
+
+Another point in green color. The slant changes from point to point shown in the line.
+
+Task: identify the slope of the function at a given point.
+
+Lets say at x = 5.
+
+The slantness changes from point to point.
+
+How to calculate the slope at the given point?
+
+Follow the below procedure for finding the slope of a function at a given point.
+
+Point is (x1,y1) =(5,25)
+
+Now consider one more point on the plane which is infinitesimal close to the given point.
+
+Eg: (x2,y2)= (5.000009, 25.009081) is a point which is very very close to (5,25)
+
+let's say the change in y as ∆y.
+
+change in x as ∆x.
+
+∆x=x2-x1
+
+∆y=y2-y1
+
+From the above equations
+
+y2= y1+∆y
+
+x2=x1+∆x
+
+From our function y=x^2
+
+y1=(x1)^2---eq 3
+
+y2=(x2)^2---eq 4
+
+From the above equations substitute y2= y1+∆y in equation 4.
+
+Similarly, substitute x2=x1+∆x in equation 4
+
+we get ( y1+∆y)= (x1+∆x)^2----eq 5.
+
+substitute eq 3 in eq 5.
+
+we get x1^2 + ∆y = (x1+∆x)^2—eq 6.
+
+expand eq 6.
+
+we get x1^2 + ∆y =  x1^2 + 2x1∆x + ∆x^2----eq7.
+
+∆y=2x1∆x+∆x^2----eq8.
+
+Divide both sides by ∆x.
+
+∆y/∆x=  2x1∆x+∆x^2/∆x.
+
+Taking ∆x common on the numerator and cancel with denominator we get
+
+∆y/∆x=2x1+ ∆x---eq 9
+
+As we considered the change in x ie ∆x which is very low .so we neglect ∆x from eq 9.
+
+∆y/∆x=2x1---eq10.
+
+Substitute x1 in eq10 we get 2*5 = 10.
+
+slope at(5,25) is 10.
+
+As we remember from our calculus derivative of the function y= x^2 is dy/dx=2x.
+
+That is what we got in eq 10.
+
+So the derivative of a function is the slope at a given point.
+
+Derivative: if f is a function than derivative of a function f we call it f' is a function which calculates
+
+the slope of a function f at a given point.
+
+We can solve derivative formulae using the above process.
+
+You try on your own to find the slope of the function y= x^3
+
+we know the derivative of y=x^3 is dy/dx= 3x^2.
+
