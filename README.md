@@ -313,3 +313,85 @@ How this w1 and w0 will adjust?
 We will learn this in our next discussions in Gradient descent.
 
 This graphical intuition of machine learning will be extended to N-Dimensional coordinate space in the next discussion
+
+
+# Understanding Plane and Hyperplane 
+
+
+
+Here we will have an understanding plane and hyperplane for machine learning with an example.
+In our last discussion, we had a Graphical Intuition of machine learning algorithms.
+
+The example which we considered is giving intuition on a 2-dimensional coordinate space.
+
+We will extend our concept from 2 dimensional to 3-dimensional coordinate space and to N-Dimensional coordinate space.
+
+Before going into the concept first we have to understand the concept of
+
+1)Point
+
+2)Plane
+
+In 3-dimensional coordinate space.
+
+lets take a point (1,2,15) in 3 dimensional coordinate space.
+
+In 3 dimensional coordinate space, we have x coordinate, y coordinate, z coordinate.
+
+To plot the point in 3 dimensions move 1 unit on the x-axis and 2 units on the y-axis and 15 units on the z-axis.
+
+Space which humans can visualize comes to 3-dimensional coordinate space.
+
+Like we have lines in 2-dimensional coordinate space.
+
+We have planes in 3-dimensional coordinate space.
+
+Equation of a line is given as ax+by+c=0
+
+We convert this equation to another form y = mx+c.
+
+This conversion is done in our previous discussion.
+
+Equation of a plane in 3 dimmensional space given as ax+by+cz+d=0
+
+cz= - ax -by – d
+
+z=    -  (a/c)x  - (b/c)y – d/c
+
+a, b, c, d are constants.
+
+Constant divided by constant is constant.
+
+We give naming as z = w1x + w2y + w0.
+
+By changing w1, w0 values in the equation of a line. the position of the line changes.
+
+By changing the values of w1, w2, w0 the position of the plane changes in three-dimensional coordinate space.
+
+Try to visualize this concept by understanding the last discussion made on a 2-dimensional coordinate space.
+The above table has three columns. So we can represent this data in 3-dimensional coordinate space.
+
+Task: identify a plane that passes through the middle of the data.
+
+How we find the plane that passes through the middle of the data.
+
+Modifying w1,w2,w0 we can change the position of the plane.
+
+Most of the machine learning algorithms task is to identify the w1,w2,w0 values that fit our task.
+
+Similarly, we have an N-dimensional coordinate system.
+
+The equation of the plane in N-dimensional space is given as ax1+bx2 +...+nxn+ z=0
+
+The plane above the 3-dimensional coordinate system we call it hyperplane.
+
+We can write the equation of hyperplane n= w1x1+w2x2+....+wn-1x+w0
+The above table has n columns so we represent the data in the N-dimensional coordinate system.
+
+Task: the machine learning algorithm has to identify a plane that passes through the middle of the data.
+
+By changing the w1, w2,.... wn-1, w0 values. We can change the position of the hyperplane until we reach our task.
+
+with this understanding of the plane and hyperplane concept. we can learn about machine learning algorithms easily
+
+
