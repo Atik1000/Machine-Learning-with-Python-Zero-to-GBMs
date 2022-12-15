@@ -518,3 +518,73 @@ You try on your own to find the slope of the function y= x^3
 
 we know the derivative of y=x^3 is dy/dx= 3x^2.
 
+
+# Finding the Maximum and Minimum of a Function
+
+In this class, we will understand how to finding the maximum and minimum of a function for machine learning.
+
+Take an example function y= (x-1)^2 +1.
+
+Task: to identify minimum point on the function. Ie at what value of x y is minimum.
+
+We observe from the above figure slope at the minimum point is zero.
+
+At minimum point-slope is horizontal line ie its zero.
+
+The above function doesn't have the maximum point.
+
+Let's check why?
+
+The right side of the minimum point as x increasing y increasing.
+
+The left side of the minimum point also y keeps on increasing.
+
+It will increase till infinity. So we don't have the maximum point.
+
+The derivative of the function finds the slope of the function at a given point.
+
+This we discussed in our previous discussion.
+
+By using the concept of a slope at a minimum point is zero.
+
+So dy/dx = 2x-2
+
+equate it to zero.
+
+2x-2=0
+
+x=2/2
+
+x=1.
+
+At x=1 we have minimum y value.
+
+Let's take another example
+
+y=-(x)^2
+
+The graph of the function is given in the figure below.
+
+From the above figure, we can observe it has maximum point.
+
+The above function doesn't have a minimum point.
+
+At the maximum point. the slope is zero.
+
+So derivate the equation and equate to zero.
+
+Solve that equation for finding x.
+
+In our next discussion, we use a method called gradient descent for finding the minimum point on a function.
+
+Here we discuss the situation at which the gradient descent is helpful.
+
+Lets take an equation y = cos(x)+tan(x)/e^x
+
+we can derivate the above function.
+
+We equate the derivative to zero.
+
+But solving the x value from the equation is difficult.
+
+In this type of situation, we use a gradient descent method.
