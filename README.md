@@ -15,6 +15,9 @@ and also refer to it on the fly while I am at work. Reference:
 
 6.If you know bangla then https://kazis-organization.gitbook.io/undefined-1
 
+
+# if you have any problem understanding then contact me : atik2000.foysal@gmail.com
+
 Following are the topics posted-
 
 1) Python Crash Course
