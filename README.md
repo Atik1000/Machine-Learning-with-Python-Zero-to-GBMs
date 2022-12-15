@@ -236,3 +236,80 @@ As x value increases y value increases. So we get a positive slope.
 Whenever we have a positive slope line moving up.
 
 The understanding of slope, intercept will help a lot in understanding machine learning algorithms.
+
+
+# Graphical Intuition
+
+Here we will have a Graphical Intuition of Machine Learning with an Example.
+
+To get a graphical intuition we use all the concepts we discussed previously.
+
+Here we take the example data which we discussed in our 1st class.
+
+
+Tip amount prediction data.
+In the above dataset, we have two columns 1) Bill amount 2) Tip amount.
+
+we already discussed how to represent the data in coordinate system.
+
+We have two columns so we represent the data in the two-dimensional coordinate system.
+Now if anyone has given us a task.
+
+Task: To identify a line that passes through the middle of the plotted data points.
+From the knowledge obtained from our previous discussions.
+
+We have to identify a line that passes from the middle of the data.
+
+From our last discussion, we know that the equation of a line is given as y=mx+z
+
+m = slope
+
+z= intercept
+
+The above equation we convert to y=w1x+w0
+
+Just we changed the variable names.
+
+From now we use this new terminology because most of the machine learning textbooks follow this terminology.
+
+As we learned slope value ie w1 value gives slant and direction.
+
+Intercept value ie w0 gives the value at which the line bisects the y coordinate
+
+With this knowledge what we do is select randomly w1,w0 values.
+
+Let's say the w1=10 and w0 = 0. these are the values that we selected.
+
+The line with these values is shown in the graph above. This line is in red color.
+
+As w0 =0 means the line is passing through the origin.
+
+Now change  w1 value so that slantness increases.
+The lines for w1=20,w1=30,w1=40 are shown in the diagram above.
+
+But none of the lines matches to our required line.
+
+Let's take w1=10 and w0 =15.
+
+This line bisects the y coordinate at value 15.
+Now change w1=20, w1=30,w1=40. All these lines are shown in the above graph.
+
+But none of the lines matches our required line.
+
+In this way, we change different w1 and w0 values until we find the line required.
+
+This graphical representation of how lines are changing should have in your mind.
+
+This helps you a lot in understanding machine learning algorithms.
+
+Most of the machine learning algorithms identify w1 and w0 values that satisfy the given task.
+
+Don't forget the task here. To identify a line that passes though the middle of the data.
+
+In this way, w1 and w0 can be adjusted to find the line that passes through the middle of the data.
+
+How this w1 and w0 will adjust?
+
+We will learn this in our next discussions in Gradient descent.
+
+This graphical intuition of machine learning will be extended to N-Dimensional coordinate space in the next discussion
