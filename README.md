@@ -74,6 +74,55 @@ there are 3 types of Machine-learning methods----
     </tr>
 </Table>
 
+# Point in a Coordinate System 
+
+Here we discuss the point in a coordinate system in machine learning with an example.
+
+We use this point concept in representing data in machine learning.
+
+Form our high school mathematics we all know about 2-dimensional coordinate space
+It has X-axis and Y-axis.
+
+A point in a coordinate system is given as an ordered pair of numbers.
+
+Eg (2,2)
+
+To plot point (2,2) in two-dimensional space move, 2 units on the positive side of the x-axis and move 2 units on the positive side of the Y-axis.
+
+In the above figure, the point is shown with a black dot.
+
+We can use this point concept to represent the machine learning data in coordinate space.
+
+Let's check with an example.
+
+In our last discussion, we used tip prediction data.
+In the above data, we have 2 columns. 1) Bill amount 2)  Tip amount
+
+Each column in our dataset is considered as a coordinate in our coordinate space.
+
+To represent the above data we need a 2-dimensional coordinate space.
+The dataset has three columns so we represent this data in three-dimensional coordinate space.
+
+Each column is taken as a coordinate in a coordinate system.
+
+A point in a three-dimensional coordinate space is given as (500,6,45).
+
+To represent the above data point we move 500 units on X-axis than 6 units towards the y-axis and 45 units towards the z-axis.
+The dataset has n columns. So we can represent the data in N-dimensional coordinate space.
+
+As a human, we can not visualize N-dimensional coordinate space.
+
+We are not providing a diagram for N-dimensional space.
+
+Imagine on your own how an N-dimensional coordinate space looks like.
+
+Imagine How to represent data in N-dimensional space.
+
+This imagination helps you a lot in understanding machine learning algorithms.
+
+Most of the machine learning algorithms use an N-dimensional coordinate system.
+
+So we represent our data as a point in a coordinate system.
 
 # Here we will have an understanding equation of a line slope-intercept for machine learning
 
