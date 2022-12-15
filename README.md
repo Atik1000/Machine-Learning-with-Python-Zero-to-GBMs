@@ -741,3 +741,94 @@ If needed better approximation use small alpha.
 if needed fast convergence use large alpha.
 
 This understanding of gradient descent will help a lot in Machine learning.
+
+
+# Mathematics behind Linear Regression 
+
+In this class we will discuss about Mathematics behind Linear Regression
+
+We take an example and understand Mathematics behind Linear Regression.
+
+It s having bill amount and tip amount.
+
+The data is having two columns. So we can represent the data in two-dimensional coordinate space.
+
+From our first discussion about machine learning.
+
+Machine learning is about
+
+1) collecting the data
+
+2) identifying the mathematical formulation from the data
+
+3) use this mathematical formula for predicting the future values
+
+For simplicity, we collected 4 data points.
+
+In reality, we will have thousands of data points.
+
+The mathematical formulation which we do in linear regression is to identify a line that passes from the data.
+
+Lets say y = 0.1 x + 2.
+
+To predict future tip amount.
+
+If a new customer came into the restaurant and he made a bill amount of 500.
+
+we know bill amount here. So we know the x value
+
+substitute x value in the equation y= 0.1*500 +2.
+
+y= 52.
+
+This is how we predict the tip amount using the mathematical formulation.
+
+But which line we have to choose.
+
+We have to choose the best line that had the minimum loss.
+
+Let's understand the minimum loss by taking an example.
+
+Take 2 lines yz1 = 0.1x+2.
+
+yz2=0.108x+1.
+
+Consider the predicted data using the above two lines.
+
+The Tip amount column shows the actual tip amount given by the customer.
+
+yz1 and yz2 columns predicted by lines yz1 and yz2 respectively.
+
+actual value – predicted value = loss.
+
+Compute loss to all the points.
+
+The loss for two lines given.
+
+square the loss to avoid -ve value.
+
+Why we have to square is understood at the end of the discussion.
+
+After squaring add all the values.
+
+Total loss is 148 for yz1 and a184 for yz2
+
+so yz1 is having minimum total loss.
+
+The linear regression model is to identify a line that having a minimum loss.
+
+Mathematically it is given as
+
+argmin ∑ (y - yz)^2
+
+y actual value
+
+yz predicted value
+
+The above mathematical argmin means find the minimum of ∑(y-yz)^2.
+
+These types of problems we call it as optimization problems.
+
+These types of optimization problems can be solved using Gradient descent.
+
+Introduction to linear regression gives a better understanding of machine learning.
